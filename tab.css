@@ -36,7 +36,7 @@
     
         background-color: navy;
         position: absolute;
-        transform: translate(600px, 0px);
+        transform: translate(100px, 0px);
         border-radius: 100%;
         opacity: 0.3;
         animation: Two 6s 1s infinite linear;
@@ -57,7 +57,7 @@
     .three{
         background-color: yellow;
         position: absolute;
-        transform: translate(100px, 0px);
+        transform: translate(10px, 0px);
         border-radius: 100%;
         opacity: 0.3;
         animation: three 6s 1s infinite linear;
@@ -79,17 +79,17 @@
         width: 150px;
         background-color: pink;
         position: absolute;
-        transform: translate(-480px, -360px);
+        transform: translate(-200px, -360px);
         border-radius: 100%;
         opacity: 0.3;
         animation: four 6s 1s infinite linear;
     }
     @keyframes four {
-        0%{transform: translate(-480px,-360px);
+        0%{transform: translate(-200px,-360px);
         height: 150px;
         width: 150px;
         background-color: pink;}
-        100%{ transform: translate(-380px,150px);
+        100%{ transform: translate(-250px,150px);
             height: 50px;
             width: 50px;
             background-color: red;
@@ -100,7 +100,7 @@
         width: 30px;
         background-color: green;
         position: absolute;
-        transform: translate(190px, -360px);
+        transform: translate(120px, -360px);
         border-radius: 100%;
         animation: five 6s 1s infinite linear;
         opacity: 0.3;
@@ -111,7 +111,7 @@
         height: 150px;
         width: 150px;
         background-color: green;}
-        100%{ transform: translate(300px,200px);
+        100%{ transform: translate(200px,200px);
             height: 50px;
             width: 50px;
             background-color: red;
@@ -123,13 +123,13 @@
         width: 150px;
         background-color: red;
         position: absolute;
-        transform: translate(300px, 200px);
+        transform: translate(200px, 200px);
         border-radius: 100%;
         animation: six 6s 1s infinite linear;
         opacity: 0.3;
     }
     @keyframes six {
-        0%{transform: translate(300px,200px);
+        0%{transform: translate(200px,200px);
         height: 150px;
         width: 150px;
         background-color: red;}
@@ -144,7 +144,7 @@
         width: 100px;
         background-color: red;
         position: absolute;
-        transform: translate(-250px, 200px);
+        transform: translate(-150px, 200px);
         border-radius: 100%;
         animation: seven 6s 1s infinite linear;
         opacity: 0.3;
@@ -167,7 +167,7 @@
         position: absolute;
         opacity: 0.3;
         border-radius: 100%;
-        transform: translate(-100px, -200px);
+        transform: translate(190px, -200px);
         opacity: 0.3;
         animation: eight 6s 1s infinite linear;
     
