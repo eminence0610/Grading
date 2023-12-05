@@ -1,0 +1,177 @@
+@media screen and (max-width: 475px) {
+    body{
+        background-image: linear-gradient(to bottom, red,yellow);
+         height: 100vh;
+    }
+
+    .linear{
+        position: relative;
+    } 
+    .shade{
+        transform: translateY(130px);
+        height: 200px !important;
+        width: 300px !important;
+        margin: 0 26px;
+    }
+  
+    .check{
+        background-color: orangered;
+        color: white;
+        border: none;
+        padding: 12px;
+       border-radius: 10px;
+     margin-left: 100px;
+     margin-top: 10px;
+    }
+    .result{
+        background-color: orangered;
+        color: white;
+        border: none;
+        padding: 12px;
+        margin: 10px 60px;
+        width: 150px;
+       border-radius: 10px;
+    }
+    label{
+        font-weight: 600;
+        margin-left: 60px;
+        font-size: 18px;
+    }
+    input{
+        height: 40px;
+        margin-left: 60px;
+        padding-left: 10px;
+        font-weight: 200;
+        border: none;
+        margin-top: -20px;
+   
+    }
+    .page{
+        animation: page 2s 1s 3 ease-in-out;
+        color: navy;
+        text-align: center;
+    }
+    @keyframes page {
+        0%{
+            transform: translateX(-40px);
+        }
+        100%{
+            transform: translateX(20px);
+        }
+    }
+
+    .glass{
+    background-color: rgba(2555, 255, 255, 0.8);
+    border-radius: 5px;
+    color: #333;
+    font-family: system-ui, sans-serif;
+    max-width: 100%;
+    width: 270px;
+    height: 300px;
+    /* transform: translateX(100px); */
+    transform: translateY(180px);
+    margin-left: 50px;
+}
+    .over{
+        margin-left: 0px;
+        width: 150px;
+        padding-top: 20px;
+    }
+    .one{
+        background-color: navy;
+        position: absolute;
+        opacity: 0.3;
+        animation: one 6s 1s infinite linear;
+        border-radius: 100%;
+    
+    }
+    @keyframes one {
+        0%{transform: translate(0px,-100px);
+        height: 100px;
+        width: 100px;
+        background-color: navy;}
+        100%{ transform: translate(40px,-360px);
+            height: 10px;
+            width: 10px;
+            background-color: pink;
+        }
+    }
+    .Two{
+    
+        background-color: navy;
+        position: absolute;
+        transform: translate(60px, 0px);
+        border-radius: 100%;
+        opacity: 0.3;
+        animation: Two 6s 1s infinite linear;
+    
+    }
+    @keyframes Two {
+        0%{transform: translate(60px,-100px);
+        height: 100px;
+        width: 100px;
+        background-color: navy;}
+        100%{ transform: translate(50px,-360px);
+            height: 10px;
+            width: 10px;
+            background-color: yellow;
+        }
+    }
+    
+    .three{
+        background-color: yellow;
+        position: absolute;
+        transform: translate(0px, 0px);
+        border-radius: 100%;
+        opacity: 0.3;
+        animation: three 6s 1s infinite linear;
+    
+    }
+    @keyframes three {
+        0%{transform: translate(-5px,0px);
+        height: 10px;
+        width: 10px;
+        background-color: yellow;}
+        100%{ transform: translate(20px,-200px);
+            height: 100px;
+            width: 100px;
+            background-color: green;
+        }
+    }
+    .four{
+        height: 100px;
+        width: 100px;
+        background-color: pink;
+        position: absolute;
+        transform: translate(10px, 0px);
+        border-radius: 100%;
+        opacity: 0.3;
+        animation: four 6s 1s infinite linear;
+    }
+    @keyframes four {
+        0%{transform: translate(80px,-360px);
+        height: 100px;
+        width: 100px;
+        background-color: pink;}
+        100%{ transform: translate(80px,-100px);
+            height: 25px;
+            width: 25px;
+            background-color: red;
+        }
+    }
+
+
+
+    .eight{
+        display: none;
+    }
+    .seven{
+        display: none;
+    }
+    .six{
+        display: none;
+    }
+    .five{
+        display: none;
+    }
+}
