@@ -52,7 +52,7 @@ label{
     max-width: 100%;
     width: 360px;
     height: 330px;
-    transform: translateY(400px);
+    transform: translateY(200px);
 }
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
     .glass {
@@ -86,9 +86,7 @@ input{
         transform: translateX(80px);
     }
 }
-.shade{
-    transform: translateY(150px);
-}
+
 .one{
     background-color: navy;
     position: absolute;
@@ -102,7 +100,7 @@ input{
     height: 150px;
     width: 150px;
     background-color: navy;}
-    100%{ transform: translate(80px,-360px);
+    100%{ transform: translate(20px,-360px);
         height: 10px;
         width: 10px;
         background-color: pink;
@@ -112,18 +110,18 @@ input{
 
     background-color: navy;
     position: absolute;
-    transform: translate(600px, 0px);
+    transform: translate(200px, 0px);
     border-radius: 100%;
     opacity: 0.3;
     animation: Two 6s 1s infinite linear;
 
 }
 @keyframes Two {
-    0%{transform: translate(600px,0px);
+    0%{transform: translate(200px,0px);
     height: 100px;
     width: 100px;
     background-color: navy;}
-    100%{ transform: translate(500px,-360px);
+    100%{ transform: translate(220px,-360px);
         height: 10px;
         width: 10px;
         background-color: yellow;
@@ -133,7 +131,7 @@ input{
 .three{
     background-color: yellow;
     position: absolute;
-    transform: translate(500px, 0px);
+    transform: translate(-5px, 0px);
     border-radius: 100%;
     opacity: 0.3;
     animation: three 6s 1s infinite linear;
@@ -144,7 +142,7 @@ input{
     height: 10px;
     width: 10px;
     background-color: yellow;}
-    100%{ transform: translate(-120px,-360px);
+    100%{ transform: translate(-100px,-360px);
         height: 150px;
         width: 150px;
         background-color: green;
@@ -155,17 +153,17 @@ input{
     width: 150px;
     background-color: pink;
     position: absolute;
-    transform: translate(-480px, 0px);
+    transform: translate(-200px, 0px);
     border-radius: 100%;
     opacity: 0.3;
     animation: four 6s 1s infinite linear;
 }
 @keyframes four {
-    0%{transform: translate(-480px,-360px);
+    0%{transform: translate(-200px,-360px);
     height: 150px;
     width: 150px;
     background-color: pink;}
-    100%{ transform: translate(-380px,0px);
+    100%{ transform: translate(-120px,0px);
         height: 50px;
         width: 50px;
         background-color: red;
@@ -187,7 +185,7 @@ input{
     height: 150px;
     width: 150px;
     background-color: green;}
-    100%{ transform: translate(490px,0px);
+    100%{ transform: translate(220px,0px);
         height: 50px;
         width: 50px;
         background-color: red;
@@ -199,17 +197,17 @@ input{
     width: 150px;
     background-color: red;
     position: absolute;
-    transform: translate(300px, 0px);
+    transform: translate(200px, 0px);
     border-radius: 100%;
     animation: six 6s 1s infinite linear;
     opacity: 0.3;
 }
 @keyframes six {
-    0%{transform: translate(300px,0px);
+    0%{transform: translate(200px,0px);
     height: 150px;
     width: 150px;
     background-color: red;}
-    100%{ transform: translate(-120px,-360px);
+    100%{ transform: translate(120px,-360px);
         height: 10px;
         width: 10px;
         background-color: pink;
@@ -220,17 +218,17 @@ input{
     width: 100px;
     background-color: red;
     position: absolute;
-    transform: translate(-250px, 0px);
+    transform: translate(-200px, 0px);
     border-radius: 100%;
     animation: seven 6s 1s infinite linear;
     opacity: 0.3;
 }
 @keyframes seven {
-    0%{transform: translate(-250px,0px);
+    0%{transform: translate(-200px,0px);
     height: 150px;
     width: 150px;
     background-color: red;}
-    100%{ transform: translate(-360px,-360px);
+    100%{ transform: translate(-220px,-360px);
         height: 10px;
         width: 10px;
         background-color: rgb(226, 2, 255);
@@ -249,11 +247,11 @@ input{
 
 }
 @keyframes eight {
-    0%{transform: translate(190px,-360px);
+    0%{transform: translate(100px,-360px);
     height: 30px;
     width: 30px;
     background-color: yellow;}
-    100%{ transform: translate(490px,0px);
+    100%{ transform: translate(110px,0px);
         height: 150px;
         width: 150px;
         background-color: green;
