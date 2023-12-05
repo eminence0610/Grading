@@ -1,0 +1,187 @@
+@media screen and (min-width: 475px) and (max-width: 850px){
+    body{
+        background-image: linear-gradient(to bottom, navy,powderblue);
+         height: 100vh;
+    }
+    .glass{
+        background-color: rgba(2555, 255, 255, 0.8);
+        border-radius: 5px;
+        color: #333;
+        font-family: system-ui, sans-serif;
+        max-width: 100%;
+        width: 360px;
+        height: 330px;
+        transform: translateY(300px);
+    }
+    .one{
+        background-color: navy;
+        position: absolute;
+        opacity: 0.3;
+        animation: one 6s 1s infinite linear;
+        border-radius: 100%;
+    
+    }
+    @keyframes one {
+        0%{transform: translate(0px,0px);
+        height: 150px;
+        width: 150px;
+        background-color: navy;}
+        100%{ transform: translate(80px,-360px);
+            height: 10px;
+            width: 10px;
+            background-color: pink;
+        }
+    }
+    .Two{
+    
+        background-color: navy;
+        position: absolute;
+        transform: translate(600px, 0px);
+        border-radius: 100%;
+        opacity: 0.3;
+        animation: Two 6s 1s infinite linear;
+    
+    }
+    @keyframes Two {
+        0%{transform: translate(100px,0px);
+        height: 100px;
+        width: 100px;
+        background-color: navy;}
+        100%{ transform: translate(200px,-360px);
+            height: 10px;
+            width: 10px;
+            background-color: yellow;
+        }
+    }
+    
+    .three{
+        background-color: yellow;
+        position: absolute;
+        transform: translate(100px, 0px);
+        border-radius: 100%;
+        opacity: 0.3;
+        animation: three 6s 1s infinite linear;
+    
+    }
+    @keyframes three {
+        0%{transform: translate(-5px,0px);
+        height: 10px;
+        width: 10px;
+        background-color: yellow;}
+        100%{ transform: translate(20px,-360px);
+            height: 150px;
+            width: 150px;
+            background-color: green;
+        }
+    }
+    .four{
+        height: 150px;
+        width: 150px;
+        background-color: pink;
+        position: absolute;
+        transform: translate(-480px, -360px);
+        border-radius: 100%;
+        opacity: 0.3;
+        animation: four 6s 1s infinite linear;
+    }
+    @keyframes four {
+        0%{transform: translate(-480px,-360px);
+        height: 150px;
+        width: 150px;
+        background-color: pink;}
+        100%{ transform: translate(-380px,150px);
+            height: 50px;
+            width: 50px;
+            background-color: red;
+        }
+    }
+    .five{
+        height: 30px;
+        width: 30px;
+        background-color: green;
+        position: absolute;
+        transform: translate(190px, -360px);
+        border-radius: 100%;
+        animation: five 6s 1s infinite linear;
+        opacity: 0.3;
+    
+    }
+    @keyframes five {
+        0%{transform: translate(120px,-360px);
+        height: 150px;
+        width: 150px;
+        background-color: green;}
+        100%{ transform: translate(300px,200px);
+            height: 50px;
+            width: 50px;
+            background-color: red;
+        }
+    }
+    
+    .six{
+        height: 150px;
+        width: 150px;
+        background-color: red;
+        position: absolute;
+        transform: translate(300px, 200px);
+        border-radius: 100%;
+        animation: six 6s 1s infinite linear;
+        opacity: 0.3;
+    }
+    @keyframes six {
+        0%{transform: translate(300px,200px);
+        height: 150px;
+        width: 150px;
+        background-color: red;}
+        100%{ transform: translate(-120px,-360px);
+            height: 10px;
+            width: 10px;
+            background-color: pink;
+        }
+    }
+    .seven{
+        height: 100px;
+        width: 100px;
+        background-color: red;
+        position: absolute;
+        transform: translate(-250px, 200px);
+        border-radius: 100%;
+        animation: seven 6s 1s infinite linear;
+        opacity: 0.3;
+    }
+    @keyframes seven {
+        0%{transform: translate(-150px,200px);
+        height: 150px;
+        width: 150px;
+        background-color: red;}
+        100%{ transform: translate(-180px,-360px);
+            height: 10px;
+            width: 10px;
+            background-color: rgb(226, 2, 255);
+        }
+    }
+    .eight{
+        height: 30px;
+        width: 30px;
+        background-color: yellow;
+        position: absolute;
+        opacity: 0.3;
+        border-radius: 100%;
+        transform: translate(-100px, -200px);
+        opacity: 0.3;
+        animation: eight 6s 1s infinite linear;
+    
+    }
+    @keyframes eight {
+        0%{transform: translate(190px,-360px);
+        height: 30px;
+        width: 30px;
+        background-color: yellow;}
+        100%{ transform: translate(290px,-50px);
+            height: 150px;
+            width: 150px;
+            background-color: green;
+        }
+    }
+    
+}

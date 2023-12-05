@@ -1,15 +1,15 @@
-var song = "Audio/songA.mp3"
-var songToPlay = new Audio(song)
-var song = "Audio/songB.mp3"
-var B = new Audio(song)
-var song = "Audio/songC.mp3"
-var C = new Audio(song)
-var song = "Audio/songD.mp3"
-var D = new Audio(song)
-var song = "Audio/mumu.mp3"
-var E = new Audio(song)
-var song = "Audio/fucx.mp3"
-var F = new Audio(song)
+var song1 = "Audio/songA.mp3"
+var songToPlay = new Audio(song1)
+var song2 = "Audio/songB.mp3"
+var B = new Audio(song2)
+var song3 = "Audio/songC.mp3"
+var C = new Audio(song3)
+var song4 = "Audio/songD.mp3"
+var D = new Audio(song4)
+var song5 = "Audio/mumu.mp3"
+var E = new Audio(song5)
+var song6 = "Audio/fucx.mp3"
+var F = new Audio(song6)
 
 function check() {
     if(enter.value != ""){
